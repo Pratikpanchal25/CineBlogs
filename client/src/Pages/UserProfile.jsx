@@ -11,7 +11,6 @@ import { IconButton } from "@mui/material";
 import { CameraAlt as CameraAltIcon, Settings as SettingsIcon } from '@mui/icons-material';
 import { createFollow, getAllPostsByUser, getUserData, updateUserProfile } from '../AppWrite/Apibase';
 import { Login } from "../Store/AuthSlice.js";
-import BackButton from '../components/BackButton';
 
 export default function UserProfile() {
     const [userData, setUser] = useState(null);
